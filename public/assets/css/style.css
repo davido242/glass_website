@@ -45,7 +45,39 @@ body{
 	border-top-left-radius: 2em;
 	border-bottom-left-radius: 2em;
 }
+.pport-holder{
+	width: 110px;
+	height: 110px;
+	background: #000;
+	border-radius: 50%;
+	position: absolute;
+	top: 4em;
+	left: 5em;
+}
+.pport-holder img{
+	width: 150px;
+	height: 150px;
 
+}
+.status-holder{
+	position: absolute;
+	top: 11em;
+	left: 5em;
+}
+.items-holder{
+	top: 18em;
+	line-height: 3em;
+}
+.join-holder{
+	top: 30em;
+	left: 3em;
+	color: red;
+	background: linear-gradient(to right, green, navy);
+	padding: 1em;
+	border-radius: .5em;
+	width: 200px;
+	height: 160px;
+}
 
 
 

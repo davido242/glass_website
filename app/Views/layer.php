@@ -1,9 +1,7 @@
 <div class="circle1 unique">
-	<h2>Empty div 1</h2>
 </div>
 
 <div class="circle1 circle2">
-	<h2>Empty div 2</h2>
 </div>
 
 <div class="container">
@@ -11,4 +9,22 @@
 </div>
 <div class="container option-cont">
 	<h2>Options</h2>
+
+	<div class="pport-holder">
+		<img src="nance.jpg" alt="Nancee Image">
+	</div>
+	<div class="status-holder">
+	<h3>Nancee Aka</h3>
+	<p>Pro Member</p>
+	</div>	
+	<div class="status-holder items-holder">
+	<p><i class="fa fa-square"></i> Nancee Aka</p>
+	<p><i class="fa fa-square"></i> Nancee Aka</p>
+	<p><i class="fa fa-square"></i> Nancee Aka</p>
+	<p><i class="fa fa-square"></i> Nancee Aka</p>
+	</div>
+	<div class="status-holder item-holder join-holder">
+	<p><i class="fa fa-square"></i> Nancee Aka</p>
+	<p><i class="fa fa-square"></i> Nancee Aka</p>
+	</div>	
 </div>
