@@ -37,6 +37,9 @@ body{
 	padding: 20px;
 	font-family: sans-serif;
 }
+.container h2{
+	margin-top: 1em;
+}
 .option-cont{
 	background: #fff;
 	width: 20%;
@@ -54,10 +57,19 @@ body{
 	top: 4em;
 	left: 5em;
 }
-.pport-holder img{
-	width: 150px;
-	height: 150px;
+.small-pport{
+	width: 80px;
+	height: 80px;
+}
 
+.pport-holder img{
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+}
+.small-pport img{
+	width: 80px;
+	height:80px;
 }
 .status-holder{
 	position: absolute;
@@ -77,6 +89,45 @@ body{
 	border-radius: .5em;
 	width: 200px;
 	height: 160px;
+}
+.items-holder i{
+	margin-right: 2em;
+}
+.first-row{
+	background: #fff;
+	width: 55%;
+	height: 15vh;
+	position: absolute;
+	left: 23em;
+	margin: 2em 0px;
+	padding: 1em;
+	border-radius: 30px;
+}
+.rating-section{
+	left: 1em;
+	top: 0em;
+}
+input[type=search] {
+	height: 3em;
+	border-radius: 3em;
+	width: 25%;
+	padding: 1em 3em 1em 1em;
+	border: none;
+	outline: none;
+	margin: 2em 0px;
+	background: rgb(255 255 255 / 25%);
+}
+.search-icon i{
+	position: absolute;
+	left: 37em;
+	top: 7em;
+}
+.second-row{
+	margin: 12em 0px;
+}
+
+.third-row{
+	margin: 22em 0px;
 }
 
 
