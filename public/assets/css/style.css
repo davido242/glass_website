@@ -79,6 +79,7 @@ body{
 .items-holder{
 	top: 18em;
 	line-height: 3em;
+	text-align: left;
 }
 .join-holder{
 	top: 30em;
@@ -132,26 +133,53 @@ input[type=search] {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 400px){
+	body{
+		background: #1167bdef;
+	}
 	.circle1{
 		display: none;
 	}
 	.unique{
-		display: block;
+		display: none;
 		margin: 20em 5em 0px 10em;
 		width: 400px;
 		height: 400px;
+	}
+	.container{
+	width: 100%;
+	height: 200vh;
+	top: 0vh;
+	left: 0%;
+	border-radius: 0em;
+	background: rgb(255 255 255 / 25%);
+	}
+	.option-cont{
+	background: rgb(241 225 225 / 45%);
+	width: 80%;
+	left: 10%;
+	top: 2em;
+	height: 190vh;
+	border-radius: 2em;
+	}
+	.join-holder{
+	top: 30em;
+	left: 3em;
+	}
+	.items-holder{
+	top: 16em;
+	line-height: 2em;
+	}
+	.first-row{
+	width: 55%;
+	position: absolute;
+	left: 5em;
+	top: 110vh;
+	z-index: 1000;
+	}
+	.rating-section{
+	left: 0em;
+	top: 0em;
+	/*background: green;*/
 	}
 }
